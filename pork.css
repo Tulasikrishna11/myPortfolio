@@ -1,0 +1,164 @@
+body {
+  background-color: #f0f8ff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.bg1 {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 1em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.class-1 {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.class-4 img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  border: 5px solid #007bff;
+}
+
+.class-5 {
+  margin-top: 20px;
+}
+
+.class-6 {
+  background-color: #343a40;
+  color: white;
+  padding: 20px;
+  border-radius: 1em;
+}
+
+.class-7 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.class-8 {
+  font-size: 1.2em;
+  color: #ddd;
+  margin-bottom: 20px;
+}
+
+.class-9 a {
+  color: white;
+  font-size: 1.5em;
+  margin: 0 10px;
+}
+
+.class-9 a:hover {
+  color: #007bff;
+}
+
+.class-10 {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 1em;
+  margin-top: 20px;
+}
+
+.class-11,
+.class-12,
+.class-13 {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+
+.class-11 i,
+.class-12 i,
+.class-13 i {
+  font-size: 1.5em;
+  margin-right: 10px;
+}
+
+.class-14 {
+  flex: 1;
+  text-align: left;
+}
+
+.class-16 a {
+  display: block;
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.class-16 a:hover {
+  background-color: #0056b3;
+}
+
+.class-2 {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 1em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.class-17 h4 {
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+}
+
+.class-18 {
+  margin-top: 20px;
+}
+
+.class-19 h4 {
+  margin-bottom: 20px;
+}
+
+.class-20 {
+  flex: 1;
+  padding: 20px;
+}
+
+.class-21 {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 1em;
+  margin-bottom: 20px;
+}
+
+.class-21 p {
+  margin: 0;
+}
+
+.class-22 h5 {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .bg1 {
+    margin-bottom: 20px;
+  }
+
+  .class-5 {
+    margin-top: 20px;
+  }
+
+  .class-2 {
+    margin-top: 20px;
+  }
+
+  .class-16 a {
+    margin-top: 20px;
+  }
+}
